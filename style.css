@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;700&display=swap");
 
-*{
+* {
   font-family: "Jura", sans-serif;
   font-size: 100%;
   margin: 0;
@@ -10,7 +10,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgba(172, 171, 170, 0.7);
+  background-color: rgba(94, 93, 93, 0.5);
   position: fixed;
   top: 0;
   left: 0;
@@ -44,52 +44,53 @@ li a {
   align-items: center;
 }
 #contact > a {
-    padding: 3px;
-    border:1px solid white;
-    border-radius: 5px;
-    text-decoration: none;
-    background-color: red;
-    color: white;
+  padding: 3px;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: red;
+  color: white;
 }
 
-a:hover{
-    color: black;
+a:hover {
+  color: black;
 }
 
-#contact > a:hover{
-    color:black;
-    border:1px solid black;
-    scale:1.2;
-    transform: 0.5s;
+#contact > a:hover {
+  color: black;
+  border: 1px solid black;
+  scale: 1.2;
+  transform: 0.5s;
 }
-main{
-    position: relative;
-    top:0;
-    margin: 0;
-    padding: 0;
-    background-image: url(./assets/background.jpg);
-    width: 100vw;
-    height: 100vh;
-    background-position:bottom;
-    background-size:contain;
-    display: flex;
+main {
+  position: relative;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
 }
-.text{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./assets/background.jpg);
+  background-position: left;
+  background-size:cover;
+  background-repeat:no-repeat;
 }
-.text p {
-    transform: rotate(90deg);
-    color: red;
-    font-size: 7rem;
-    font-weight: 700;
+.text h1 {
+  transform: rotate(90deg);
+  color: red;
+  font-size: 7rem;
+  font-weight: 700;
 }
-.image{
-    background-image: url(./assets/main.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 50%;
-    margin-top: 2.5rem;
+.image {
+  background-image: url(./assets/main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  margin-top: 2.5rem;
 }
