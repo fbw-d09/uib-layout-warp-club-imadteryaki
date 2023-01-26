@@ -1,5 +1,5 @@
 # Warp Club
-[![Status overview badge](../../blob/badges/.github/badges/main/badge.svg)](#-results)
+[![Status overview badge](../../blob/badges/.github/badges/feedback/badge.svg)](#-results)
 
 
 ### Recreate the reference image below using Flexbox..
@@ -27,14 +27,14 @@
 
 |                 Status                  | Check                                                                                    |
 | :-------------------------------------: | :--------------------------------------------------------------------------------------- |
-| ![Status](../../blob/badges/.github/badges/main/status0.svg) | Index file should contain appropriate meta tags |
-| ![Status](../../blob/badges/.github/badges/main/status1.svg) | Stylesheet Should be properly linked in index.html file |
-| ![Status](../../blob/badges/.github/badges/main/status2.svg) | Index file Should contain a title tag that is not empty |
-| ![Status](../../blob/badges/.github/badges/main/status3.svg) | Jura Google font should be imported and Used |
-| ![Status](../../blob/badges/.github/badges/main/status4.svg) | Images provided in the assets folder should be used |
-| ![Status](../../blob/badges/.github/badges/main/status5.svg) | Navbar should exist with the specified anchor tags |
-| ![Status](../../blob/badges/.github/badges/main/status6.svg) | The text 'Warp club' Should exist on the page, as the main headline |
-| ![Status](../../blob/badges/.github/badges/main/status7.svg) | Page should be divided to two equal sections containing different images |
+| ![Status](../../blob/badges/.github/badges/feedback/status0.svg) | Index file should contain appropriate meta tags |
+| ![Status](../../blob/badges/.github/badges/feedback/status1.svg) | Stylesheet Should be properly linked in index.html file |
+| ![Status](../../blob/badges/.github/badges/feedback/status2.svg) | Index file Should contain a title tag that is not empty |
+| ![Status](../../blob/badges/.github/badges/feedback/status3.svg) | Jura Google font should be imported and Used |
+| ![Status](../../blob/badges/.github/badges/feedback/status4.svg) | Images provided in the assets folder should be used |
+| ![Status](../../blob/badges/.github/badges/feedback/status5.svg) | Navbar should exist with the specified anchor tags |
+| ![Status](../../blob/badges/.github/badges/feedback/status6.svg) | The text 'Warp club' Should exist on the page, as the main headline |
+| ![Status](../../blob/badges/.github/badges/feedback/status7.svg) | Page should be divided to two equal sections containing different images |
 
 
 
