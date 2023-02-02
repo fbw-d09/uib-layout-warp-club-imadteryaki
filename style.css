@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;700&display=swap");
 
-* {
+*{
   font-family: "Jura", sans-serif;
   font-size: 100%;
   margin: 0;
@@ -10,7 +10,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgb(82, 80, 80,0.7);
+  background-color: rgba(172, 171, 170, 0.7);
   position: fixed;
   top: 0;
   left: 0;
@@ -28,6 +28,7 @@ nav {
   display: flex;
   list-style-type: none;
   flex-direction: row;
+  flex-grow: 2;
   justify-content: space-around;
   align-items: center;
 }
@@ -37,69 +38,59 @@ li a {
 }
 #contact {
   display: flex;
-  width: 50vw;
-  justify-content:flex-end;
-  
-  background-color:;
+  width: 20vw;
+  flex-wrap: 1;
+  justify-content: center;
   align-items: center;
 }
 #contact > a {
-  padding: 3px;
-  border: 1px solid white;
-  border-radius: 5px;
-  margin-right: 5rem;
-  text-decoration: none;
-  background-color: red;
-  color: white;
+    padding: 3px;
+    border:1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
 }
 
-a:hover {
-  color: black;
+a:hover{
+    color: black;
 }
 
-#contact > a:hover {
-  color: black;
-  border: 1px solid black;
-  scale: 1.2;
-  transform: 0.5s;
+#contact > a:hover{
+    color:black;
+    border:1px solid black;
+    scale:1.2;
+    transform: 0.5s;
 }
-.main {
-  position: relative;
-  top: 0;
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+main{
+    position: relative;
+    top:0;
+    margin: 0;
+    padding: 0;
+    background-image: url(./assets/background.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position:left;
+    background-size:cover;
+    background-repeat:no-repeat;
+    object-fit:cover;
+    display: flex;
 }
-.text {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  top: 0;
+.text{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .text h1 {
-  transform: rotate(90deg);
-  color: red;
-  font-size: 7rem;
-  font-weight: 700;
-  position: absolute;
-  z-index: 1000;
+    transform: rotate(90deg);
+    color: red;
+    font-size: 6rem;
+    font-weight: 700;
 }
-.text img {
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-}
-.image {
-  width: 50%;
-  margin-top: 2.5rem;
-}
-.image img{
-    width: 100%;
-    height:100%;
+.image{
+    background-image: url(./assets/main.jpg);
+    background-size: cover;
+    width: 50%;
+    margin-top:2.5rem ;
 }
